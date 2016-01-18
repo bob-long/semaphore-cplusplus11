@@ -63,7 +63,6 @@ namespace std {
    public:
       semaphore_lockfree(int val) {m_val = val;}
       virtual void wait(void) {
-         int old_val = m_val;
          while (true) {
             this_thread::yield();
 

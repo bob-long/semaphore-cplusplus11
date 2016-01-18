@@ -78,7 +78,7 @@ void producer_func(int pid) {
          pd->post();
 
          /*
-          * Notify the main thread can start quiting.
+          * Notify the main thread can start quitting.
           */
          quit->post();
 
@@ -128,7 +128,7 @@ void consumer_func(int cid) {
          cs->post();
 
          /*
-          * Notify the main thread can start quiting.
+          * Notify the main thread can start quitting.
           */
          quit->post();
          n_cons--;
