@@ -10,7 +10,7 @@
  * - "semaphore" is blocking version that is implemented based on mutex and
  *   condition variable.
  *
- * - "semaphore_lockfree" is non-blocking version that is implemented based on
+ * - "semaphore_lockfree" is lock-less version that is implemented based on
  *   c++ atomic CAS (compare and swap).
  *
  */

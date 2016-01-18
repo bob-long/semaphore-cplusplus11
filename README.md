@@ -1,4 +1,4 @@
-# semaphore-cplusplus11
+# semaphore c++11
 Implement a simple semaphore interface:
  
   wait()
@@ -10,5 +10,5 @@ Implement a simple semaphore interface:
   - "semaphore" is blocking version that is implemented based on mutex and
     condition variable.
  
-  - "semaphore_lockfree" is non-blocking version that is implemented based on
+  - "semaphore_lockfree" is lock-less version that is implemented based on
     c++ atomic CAS (compare and swap).
